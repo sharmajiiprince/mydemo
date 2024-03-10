@@ -7,6 +7,8 @@ import Login from './login';
 import Register from './Register';
 import Profile from './Profile';
 import { AddProduct } from './AddProduct';
+import User from './User';
+import Users from './Users';
 function App() {
   return (
     <div className="App">
@@ -18,6 +20,8 @@ function App() {
         <Route path='/register' element={<Register />} />
         <Route path='/profile' element={<Profile />} />
         <Route path='/add' element={<AddProduct />}/>
+        <Route path='/user' element={<Users />}/>
+        <Route path='/user/:id' element={<User />} />
       </Routes> 
     </div>
   );

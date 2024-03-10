@@ -277,6 +277,35 @@ tbody tr:nth-child(even) {
   cursor: pointer;
 }
 
+.btn-success{
+  width: 50%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #065111;
+  color: #fff;
+  cursor: pointer;
+}
+
+.save{
+  width: 15%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #065111;
+  color: #fff;
+  cursor: pointer;
+}
+
+.edit{
+  width: 15%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #716f00;
+  color: #fff;
+  cursor: pointer;
+}
 .product{
   display: flex;
   justify-content: space-between;

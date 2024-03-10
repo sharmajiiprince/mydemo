@@ -97,11 +97,11 @@ export default function Profile() {
           <form style={{ width: "550px", height:"550px", marginLeft: "30px", marginRight: "30px" }}>
           <div className="ml-3">
                 {editMode ? (
-                  <button type="button" className="btn btn-success mt-4" onClick={handleSave}>
+                  <button type="button" className="save mt-4" onClick={handleSave}>
                     Save
                   </button>
                 ) : (
-                  <button type="button" className="btn btn-primary mt-4" onClick={handleEditToggle}>
+                  <button type="button" className="edit mt-4" onClick={handleEditToggle}>
                     Edit
                   </button>
                 )}

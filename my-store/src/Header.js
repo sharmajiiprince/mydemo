@@ -24,8 +24,8 @@ export default function Header(){
         case 'product':
           navigate('/product');
           break;
-        case 'users':
-          navigate('/users');
+        case 'user':
+          navigate('/user');
           break;
         case 'other':
           navigate('/');
@@ -45,7 +45,7 @@ export default function Header(){
                 <option value="about">About</option>
                 <option value="add">Add Product</option>
                 <option value="product">Product</option>
-                <option value="users">Users</option>
+                <option value="user">Users</option>
                 <option value="other">Other</option>
               </select>
             </li>
