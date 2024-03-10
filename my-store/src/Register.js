@@ -46,10 +46,10 @@ function Register() {
         password:password,
         role:role
     }
-    console.log(temp);
+    //console.log(temp);
     try {
       if (password === confirmPassword) {
-        const response = await fetch('https://jsonserver-iota.vercel.app/user', {
+        const response = await fetch('https://jsonserver-iota.vercel.app/user/api/user', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',

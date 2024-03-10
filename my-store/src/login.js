@@ -68,6 +68,7 @@ export default function Login(){
               onChange={handleEmail}
               className='form-control'
               placeholder='Enter Your Email'
+              //style={{width:"480px"}}
             />
           </div>
           <div className='mb-3'>

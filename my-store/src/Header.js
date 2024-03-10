@@ -74,6 +74,7 @@ export default function Header(){
                 <li><a href="/">Home</a></li>
                 <li><a href="/about">About</a></li>
                 <li><a href="/product">Product</a></li>
+                <li><a href='/add'>AddProduct</a></li>
                 {renderUsersDropdown()}
                {localStorage.getItem('user-name') ? (
             <>

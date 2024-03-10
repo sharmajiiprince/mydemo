@@ -116,7 +116,7 @@ export function Product() {
   return (
     <div className='container-fluid'>
       <Header />
-      <div className="d-flex justify-content-between">
+      <div className="product">
         <h2 className="text-secondary">This is the product page</h2>
         <div className="search" style={{ display: "inline-flex", borderRadius: "5px" ,padding:"0 PX" }}>
           <input
@@ -125,9 +125,9 @@ export function Product() {
             placeholder="Search by name, price, color, or weight"
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
-            style={{ width: "300px", borderTopLeftRadius: "5px", borderBottomLeftRadius: "5px" }}
+            style={{ width: "300px", borderTopLeftRadius: "4px", borderBottomLeftRadius: "4px" , marginRight:"30px" }}
           />
-          <button className="search" style={{ background: 'rgb(70, 86, 300)',color:"yellow", marginLeft: "-1px", borderTopRightRadius: "9px", borderBottomRightRadius: "9px" }}>Search</button>
+          {/* <button className="search" style={{ background: 'rgb(70, 86, 300)',color:"yellow", marginLeft: "-1px", borderTopRightRadius: "9px", borderBottomRightRadius: "9px" }}>Search</button> */}
         </div>
 
       </div>

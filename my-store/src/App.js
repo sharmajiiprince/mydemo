@@ -6,6 +6,7 @@ import Product from './Product';
 import Login from './login';
 import Register from './Register';
 import Profile from './Profile';
+import { AddProduct } from './AddProduct';
 function App() {
   return (
     <div className="App">
@@ -16,6 +17,7 @@ function App() {
         <Route path='/login' element={<Login />} />
         <Route path='/register' element={<Register />} />
         <Route path='/profile' element={<Profile />} />
+        <Route path='/add' element={<AddProduct />}/>
       </Routes> 
     </div>
   );

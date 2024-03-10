@@ -3,12 +3,83 @@
 }
 
 
-
-.login{
+/* login css */
+/*.login{
   display: flex;
   justify-content: center;
   margin-top: 20px;
+}*/
+  .login {
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  /* border: 1px solid #ccc; */
+  border-radius: 5px;
+  margin-top: 130px;
+} 
+
+/*.login h1 {
+  text-align: center;
+  margin-bottom: 20px;
 }
+
+.login .form-control {
+  margin-bottom: 15px;
+}
+
+.login .btn-primary {
+  width: 100%;
+  background-color: #0056b3;
+} */
+
+.login form {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login h1 {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.login .form-label {
+  font-weight: bold;
+}
+
+.login .form-control {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 480px;
+  }
+
+.login .form-text {
+  color: #6c757d;
+}
+
+.login .form-select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login .btn-primary {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
 
 .name {
   border-radius: 50%; 
@@ -107,6 +178,7 @@ a:hover {
   margin-bottom: 20px;
   border: 1px solid #ccc;
   border-radius: 5px;
+  width: 480px; 
 }
 
 .register .form-text {
@@ -172,7 +244,7 @@ tbody tr:nth-child(even) {
   margin-right: -4px;  
 }
 
-.search button {
+/* .search button {
   padding: 10px 10px;
   background-color: #4f4f4f;
   color: #fff;
@@ -183,6 +255,31 @@ tbody tr:nth-child(even) {
 
 .search button:hover {
   background-color: #333;
+} */
+
+.btn-warning{
+  width: 50%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #a4ae17;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn-danger{
+  width: 50%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #510606;
+  color: #fff;
+  cursor: pointer;
+}
+
+.product{
+  display: flex;
+  justify-content: space-between;
 }
 
 /* Styles for edit form */
@@ -308,6 +405,57 @@ tbody tr:nth-child(even) {
   display: none;
 }
 
+/* Add product */
+.container-fluid {
+  padding: 20px;
+}
+
+.addproduct {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.addproduct h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.addproduct .form-label {
+  font-weight: 500;
+}
+
+.addproduct .form-control {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+.addproduct .btn-primary {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.addproduct .btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.addpro{
+  text-align: center;
+}
 
 
 @media (prefers-reduced-motion: no-preference) {
