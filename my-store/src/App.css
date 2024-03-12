@@ -504,6 +504,66 @@ tbody tr:nth-child(even) {
   color: white;
 }
 
+
+/* blood component css */
+.blood {
+  width: 30%;
+  margin-left: 30%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 70px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+input {
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.bloodlist {
+  margin-top: 20px;
+}
+
+h2 {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  margin-left: 33%;
+  width: 400px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
 .App-link {
   color: #61dafb;
 }
