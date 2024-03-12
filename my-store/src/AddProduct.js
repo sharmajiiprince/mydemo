@@ -12,9 +12,9 @@ export function AddProduct(){
     const change=useNavigate();
 
     useEffect(()=>{
-      // if(!localStorage.getItem('user-name')){
-      //   change('/login');
-      // }
+      if(!localStorage.getItem('user-name')){
+        change('/login');
+      }
     },[]);
 
     async function handleSubmit(e){
