@@ -50,7 +50,7 @@ export default function Login(){
             console.error('Login Error:', error);
         }
     }
-
+    
     return (
         <div>
             <Header />

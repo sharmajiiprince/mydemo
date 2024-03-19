@@ -56,7 +56,7 @@ function Register() {
           },
           body: JSON.stringify(temp),
         });
-
+        console.log(response);
         if (!response.ok) {
           throw new Error('Registration Failed');
         }
