@@ -23,6 +23,7 @@ export default function Blood() {
                 throw new Error('Failed to fetch user data');
             }
             const data = await response.json();
+            
             const bloodGroup = data.find(blood => Object.keys(blood)[0] === group);
             if (type === 'donner') {
                 setResult(bloodGroup[group][0].donner);

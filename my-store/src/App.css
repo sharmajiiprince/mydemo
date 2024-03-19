@@ -1,5 +1,5 @@
 .App {
-  text-align: left;
+  text-align: center;
 }
 
 
@@ -87,6 +87,55 @@
   margin-top: 70px;
 }
 
+@media screen and (max-width: 768px) {
+  .login {
+    margin-top: 80px;
+  }
+
+  .login .form-control,
+  .login .form-select {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .login {
+    padding: 10px;
+    margin-top: 40px;
+  }
+
+  .login h1 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+
+  .login .form-control,
+  .login .form-select {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .login .btn-primary {
+    width: 100%;
+    padding: 8px;
+  }
+
+  .name {
+    padding: 3px 8px;
+    font-size: 12px;
+  }
+
+  .logout {
+    margin-right: 20px;
+  }
+
+  .register,
+  .addproduct {
+    margin-top: 10px;
+  }
+}
+
+
 /* Header css */
 
 ul {
@@ -131,6 +180,40 @@ a:hover {
 .dropdown select option {
  background: #004687;
  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  ul {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  li {
+    margin: 10px 0;
+  }
+
+  .auth {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  li {
+    margin: 8px 0;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .auth {
+    margin-top: 15px;
+  }
+
+  .dropdown select {
+    padding: 10px;
+    width: 100%;
+    max-width: 100%;
+  }
 }
 
 
@@ -187,6 +270,49 @@ a:hover {
   background-color: #0056b3;
 }
 
+@media screen and (max-width: 768px) {
+  .register form {
+    padding: 15px;
+  }
+
+  .register h1 {
+    font-size: 20px;
+    margin-bottom: 8px;
+  }
+
+  .register .form-control,
+  .register .form-select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+  }
+
+  .register .btn-primary {
+    padding: 8px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .register form {
+    padding: 10px;
+  }
+
+  .register h1 {
+    font-size: 18px;
+    margin-bottom: 6px;
+  }
+
+  .register .form-control,
+  .register .form-select {
+    width: 100%;
+    padding: 6px;
+    margin-bottom: 12px;
+  }
+
+  .register .btn-primary {
+    padding: 6px;
+  }
+}
 
 /* product css */
 .table-responsive {
@@ -278,6 +404,21 @@ tbody tr:nth-child(even) {
   justify-content: space-between;
 }
 
+@media only screen and (max-width: 768px) {
+  .input {
+    width: 100%;
+    max-width: none;
+  }
+
+  .btn-warning, .btn-danger, .btn-success, .save, .edit {
+    width: 100%;
+  }
+
+  .product div {
+    width: 100%;
+  }
+}
+
 /* Styles for edit form */
 .xyz {
   background-color: rgba(0, 0, 0, 0.5);
@@ -331,6 +472,12 @@ tbody tr:nth-child(even) {
   background-color: #333;
 }
 
+@media (max-width: 768px) {
+  .bg-light {
+    max-width: 90%;
+    width: 300px;
+  }
+}
 
 /* profile css */
 .container-1 {
@@ -453,6 +600,23 @@ tbody tr:nth-child(even) {
   text-align: center;
 }
 
+@media (max-width: 768px) {
+  .addproduct {
+    padding: 15px;
+  }
+
+  .addproduct h2 {
+    font-size: 20px;
+  }
+
+  .addproduct .form-control {
+    font-size: 14px;
+  }
+
+  .addproduct .btn-primary {
+    font-size: 14px;
+  }
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -540,6 +704,33 @@ h2 {
   box-sizing: border-box;
   margin-bottom: 10px;
 }
+
+@media (max-width: 768px) {
+  .blood {
+    width: 90%;
+    margin: 0 auto;
+    padding: 15px;
+  }
+
+  .card {
+    width: 90%;
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .blood {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .card {
+    width: 100%;
+    padding: 15px;
+  }
+}
+
 
 .App-link {
   color: #61dafb;
