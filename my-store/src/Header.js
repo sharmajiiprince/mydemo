@@ -91,9 +91,9 @@ export default function Header(){
               <li className='auth'>
                 <a href="/login">Login</a>
               </li>
-              <li>
+              {/* <li>
                 <a href="/register">Register</a>
-              </li>
+              </li> */}
             </>
           )}
             </ul>
